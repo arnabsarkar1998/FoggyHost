@@ -191,10 +191,27 @@ h3 {
 }
 .btn--outline:hover{
     background: var(--color-headings);
-    color: #fff;
+    color: #fff ;
 }
 @media screen and (min-width: 1024px) {
     .btn{
+        font-size: 1.5rem;
+    }
+    
+}
+.input{
+    border-radius: 30px;
+    border: 1px solid #f1b9b9;
+    color: var(--color-headings);
+    font-size: 2rem;
+    outline: 0;
+    padding: 1.5rem 3.5rem;
+}
+::placeholder {
+    color: #bcb4e4;
+}
+@media screen and (min-width:1024px) {
+    .input{
         font-size: 1.5rem;
     }
     
